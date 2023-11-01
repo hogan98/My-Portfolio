@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// .nav-header {
+//     padding: 10px 0;
+//     background-color: #151515;
+//     .nav {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         .links {
+//             .nav-list {
+//                 display: flex;
+//                 justify-content: center;
+//                 color: #f1d2ff;
+//                 .nav-item:hover {
+//                     color: rgb(230, 230, 230);
+//                     transition-duration: 100ms;
+//                 }
+//                 .nav-item {
+//                     display: flex;
+//                     align-items: center;
+//                     margin-right: 20px;
+//                 }
+//             }
+//         }
+//         .socials {
+//             display: flex;
+//             align-items: center;
+//             // justify-content: flex-end;
+//         }
+//     }
+// }
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #080808;
+    .nav {
+        display: flex;
+        align-items: center;
+
+        .nav-list {
+            display: flex;
+            color: #f1d2ff;
+            font-size: 20px;
+
+            .nav-item {
+                margin-right: 4.5rem;
+            }
+        }
+
+        .socials {
+            display: flex;
+            font-size: 10px;
+        }
+    }
+}
+
+.img-hero {
+    height: 500px;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.hero {
+    position: relative; /* Needed for absolute positioning of the text */
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text perfectly */
+    color: white; /* Set the text color to contrast the image */
+}
