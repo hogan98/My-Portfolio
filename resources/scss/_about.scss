@@ -1,0 +1,15 @@
+.main-info-container {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns with a 2:1 width ratio */
+    background-color: red;
+    height: 500px;
+}
+
+.info-img-container {
+    background-color: rgb(129, 129, 129);
+}
+
+.info-container {
+    background-color: black;
+}

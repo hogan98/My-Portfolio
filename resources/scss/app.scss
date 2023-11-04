@@ -1,82 +1,11 @@
+@import "about";
+@import "footer";
+@import "image";
+@import "nav";
+@import "variables";
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 25px 0;
-    background-color: #242424;
-}
-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .nav-list {
-        display: flex;
-        flex-direction: row;
-        color: #f1d2ff;
-        font-size: 20px;
-        .nav-item {
-            display: block;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 9px;
-            font-family: Futura, Trebuchet MS, Arial, sans-serif;
-            font-size: 0.7em;
-            color: #f1d2ff;
-            text-align: center;
-            padding: 14px 30px;
-            transition: background 0.25s, box-shadow 0.15s;
-            position: relative;
-
-            &:hover {
-                color: #000000;
-                background: #f1d2ff;
-                box-shadow: 0px 4px 0px 0px #f1d2ff;
-            }
-
-            @media all and (min-width: 545px) {
-                padding: 20px;
-            }
-        }
-        //media queries
-        @media (max-width: 767px) {
-            flex-direction: column;
-            .nav-item {
-                margin-right: 0;
-                margin-top: 8px;
-            }
-            .socials .nav-item {
-                margin: 15px 15px 0 0;
-            }
-        }
-    }
-
-    .socials {
-        display: flex;
-        font-size: 10px;
-    }
-}
-
-.img-hero {
-    height: 500px;
-    width: 100%;
-    opacity: 0.4;
-}
-
-.hero {
-    position: relative; /* Needed for absolute positioning of the text */
-}
-
-.centered-text {
-    position: absolute;
-    top: 50%; /* Vertically center the text */
-    left: 50%; /* Horizontally center the text */
-    transform: translate(-50%, -50%); /* Center the text perfectly */
-    color: white; /* Set the text color to contrast the image */
 }
