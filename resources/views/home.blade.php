@@ -16,26 +16,27 @@
 
         <div class="container">
             
-        
-        <div class="main-info-container">
-                <p>this is a test Main-Info-Container</p>
             
-            <div class="info-img-container">
-                <p>this is a test Img-container</p>
+            <div class="main-info-container">
+                
+                <div class="info-img-container">
+                    <img src="/img/castlefade.png" alt="" class="text-image">
+                </div>
+                <div class="info-container">
+                    <h2 class="text-2xl font-medium mt-5 text-center">Lorem ipsum dolor sit amet.</h2>
+                    <p class="text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
+                    <p class="text-center m-3">Lorem ipsum dolor sasd asdas sd asd asdasdas das dasadas it amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
+                </div>
             </div>
-            <div class="info-container">
-                <p>This is a test Info-container</p>
-            </div>
-        </div>
 
-        <div class="card-container">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-        </div>
+            <div class="card-container">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
 
         </div>
 @endsection

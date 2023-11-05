@@ -1,15 +1,24 @@
 .main-info-container {
     margin-top: 90px;
     display: grid;
-    grid-template-columns: 2fr 1fr; /* Two columns with a 2:1 width ratio */
-    background-color: red;
+    grid-template-columns: 2fr 1.8fr;
     height: 500px;
+    align-items: center;
 }
 
 .info-img-container {
-    background-color: rgb(129, 129, 129);
+    height: 100%;
+    box-shadow: -10px 10px 30px 10px rgba(0, 0, 0, 0.5);
 }
 
 .info-container {
+    height: 90%;
+    color: white;
     background-color: black;
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-image {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
 }
