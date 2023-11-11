@@ -22,3 +22,8 @@
     background-color: rgb(255, 255, 255);
     height: 100%;
 }
+
+@media (max-width: 768px) {
+    .main-info-container {
+    }
+}
