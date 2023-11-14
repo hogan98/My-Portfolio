@@ -1,15 +1,21 @@
-@import "about";
-@import "card";
-@import "footer";
-@import "image";
-@import "nav";
-@import "typography";
-@import "variables";
+//Main SCSS File
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
+//Importing Abstracts
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+//impoorting Base
+@import "base/reset";
+@import "base/typography";
+@import "base/utilities";
+
+//Importing Components
+@import "components/buttons";
+@import "components/card";
+@import "components/image";
+
+//Importing Layout
+@import "layout/about";
+@import "layout/footer";
+@import "layout/nav";

@@ -1,20 +1,35 @@
-@import "variables";
+@import "../abstracts/variables";
 
 .card-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    align-items: center;
 }
+
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
     background-color: rgb(202, 202, 202);
-    border-radius: 10px;
+    border-radius: $border-radius;
     box-shadow: -10px 10px 30px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, opacity 0.3s;
 
+    &:hover {
+        transform: scale(1.1);
+        z-index: 1;
+        opacity: 1;
+    }
+    &:not(:hover) {
+        opacity: 0.6;
+    }
     a {
         text-decoration: none;
+
+        img {
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
     }
 
     img.rounded-t-lg {
@@ -24,6 +39,7 @@
 }
 
 .card-content {
+    min-height: auto;
     padding: 20px;
     min-height: 250px;
 

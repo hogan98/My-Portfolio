@@ -1,0 +1,15 @@
+// Mixin for centering items using flexbox
+@mixin center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Usage:
+.example {
+    @include center-items;
+}
+
+@mixin text-center {
+    text-align: center;
+}

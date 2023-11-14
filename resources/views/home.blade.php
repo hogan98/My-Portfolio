@@ -18,11 +18,13 @@
             <div class="main-info-container mb-16">
                 <div class="info-img-container">
                     <img src="/img/castleglowcompleted.png" alt="" class="text-image">
+                    <p class="mobile-heading">About Me</p>
+                    <p class="mobile-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
                 </div>
                 <div class="info-container">
-                    <h2 class="text-2xl font-medium mt-5 text-center">Lorem ipsum dolor sit amet.</h2>
-                    <p class="text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
-                    <p class="text-center m-3">Lorem ipsum dolor sasd asdas sd asd asdasdas das dasadas it amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
+                    <h2 class="section-headings-bg-2">Lorem ipsum dolor sit amet.</h2>
+                    <p class="text-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
+                    
                 </div>
             </div>
 
@@ -30,7 +32,7 @@
             <div class="card-container">
                 <div class="card">
                     <a href="#">
-                        <img class="rounded-t-lg" src="/img/castleglowcompleted.png" alt="" />
+                        <img class="rounded-t-lg card-image" src="/img/an_dulra.png" alt="" />
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">An Dulra</h5>
@@ -46,7 +48,7 @@
 
                 <div class="card">
                     <a href="#">
-                        <img  class="rounded-t-lg" src="/img/castleglowcompleted.png" alt="">
+                        <img  class="rounded-t-lg" src="/img/wimbledon.png" alt="">
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Wimbledon Wine School</h5>
@@ -62,7 +64,7 @@
 
                 <div class="card">
                     <a href="#">
-                        <img  class="rounded-t-lg"src="/img/castleglowcompleted.png" alt="">
+                        <img  class="rounded-t-lg"src="/img/nz_protein.png" alt="">
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Nz Protein</h5>
@@ -78,7 +80,7 @@
 
                 <div class="card">
                     <a href="#">
-                        <img  class="rounded-t-lg"src="/img/castleglowcompleted.png" alt="">
+                        <img  class="rounded-t-lg"src="/img/castletroy.png" alt="">
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Castletroy Hockey Club</h5>
@@ -94,7 +96,7 @@
 
                 <div class="card">
                     <a href="#">
-                        <img  class="rounded-t-lg"src="/img/castleglowcompleted.png" alt="">
+                        <img  class="rounded-t-lg"src="/img/anywair.png" alt="">
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Anywair</h5>
@@ -110,7 +112,7 @@
 
                 <div class="card">
                     <a href="#">
-                        <img  class="rounded-t-lg"src="/img/butterflyglow.png" alt="">
+                        <img  class="rounded-t-lg"src="/img/gaming_nirvana.png" alt="">
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Gaming Nirvana</h5>
@@ -125,7 +127,19 @@
                 </div>
             </div>
 
-            <p class="headings">Graphic Portfolio</p>
+            <p class="headings mt-14">Graphic Portfolio</p>
+            <div class="graphic-container">
+                <div class="slider">
+
+                </div>
+                <div class="about-graphics">
+                    <p class="section-headings">About Graphics ...</p>
+                    <p class="text-standard">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus vel dolores laboriosam facilis numquam perspiciatis quidem quae quis, soluta sequi ratione reiciendis quo iusto sit fuga error officia repellat aperiam, sapiente, illo ex? Blanditiis, exercitationem cumque voluptatem in minus perspiciatis laboriosam optio debitis maiores fugiat nemo, earum quae dolorem! Provident.</p>
+                </div>
+            </div>
             
+            <p class="headings mt-14">Contact</p>
+            
+
         </div>
 @endsection
