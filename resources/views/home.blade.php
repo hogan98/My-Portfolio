@@ -3,7 +3,6 @@
 @section('title')
 
 @section('content')
-
         <div class="hero">
             <img src="/img/CastleGlowCompleted.png" alt="" class="img-hero">
             <div class="centered-text">
@@ -22,7 +21,7 @@
                     <p class="mobile-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
                 </div>
                 <div class="info-container">
-                    <h2 class="section-headings-bg-2">Lorem ipsum dolor sit amet.</h2>
+                    <h2 class="section-headings-bg-2">About Me</h2>
                     <p class="text-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
                     
                 </div>
@@ -126,20 +125,53 @@
                     </div>
                 </div>
             </div>
-
+            
             <p class="headings mt-14">Graphic Portfolio</p>
-            <div class="graphic-container">
-                <div class="slider">
+            <div class="carousel">
+                <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <img src="/img/butterflyglow.png" alt="Butterfly Image">
+                            <div class="content">
+                                <h2>Butterfly</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
 
+                        <div class="carousel-slide">
+                            <img src="/img/castleglowcompleted.png" alt="Castle Image">
+                            <div class="content">
+                                <h2>Castle</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-slide">
+                            <img src="/img/graphics/boat_portal.png" alt="Boat Portal">
+                            <div class="content">
+                                <h2>Boat Portal</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
                 </div>
-                <div class="about-graphics">
-                    <p class="section-headings">About Graphics ...</p>
-                    <p class="text-standard">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus vel dolores laboriosam facilis numquam perspiciatis quidem quae quis, soluta sequi ratione reiciendis quo iusto sit fuga error officia repellat aperiam, sapiente, illo ex? Blanditiis, exercitationem cumque voluptatem in minus perspiciatis laboriosam optio debitis maiores fugiat nemo, earum quae dolorem! Provident.</p>
+                <div class="button">
+                    <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
-            
-            <p class="headings mt-14">Contact</p>
-            
 
+            <p class="headings mt-14">Contact</p>
+            <div class="contact-form">
+            <div class="form-info">
+                <p class="contact-header">Contact me at:</p>
+                <p class="contact-text">Email:</p>
+                <p class="contact-text">Or submit form -> </p>
+            </div>
+            <form action="#">
+                <input type="text" placeholder="Your Name" class="">
+                <input type="email" placeholder="Email Address" class="">
+                <textarea name="message" placeholder="Message(Optional)" cols="30" rows="10"></textarea>
+                <button type="submit" class="contact-btn ">Send Message</button>
+            </form>
+            </div>
         </div>
 @endsection

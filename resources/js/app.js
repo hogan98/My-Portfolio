@@ -30,3 +30,34 @@ window.addEventListener("resize", adjustHeroMargin);
 //     navBar.classList.toggle("active");
 
 // };
+
+//Slider Js
+const prevBtn = document.querySelector(".prev-btn");
+const nextBtn = document.querySelector(".next-btn");
+const container = document.querySelector(".carousel-container");
+const slides = document.querySelectorAll(".carousel-slide");
+
+let slideIndex = 0;
+const totalSlides = slides.length;
+
+const showSlide = () => {
+    slides.forEach((slide, index) => {
+        if (index === slideIndex) {
+            slide.style.display = "block";
+        } else {
+            slide.style.display = "none";
+        }
+    });
+};
+
+showSlide();
+
+nextBtn.addEventListener("click", () => {
+    slideIndex = (slideIndex + 1) % totalSlides;
+    showSlide();
+});
+
+prevBtn.addEventListener("click", () => {
+    slideIndex = (slideIndex - 1 + totalSlides) % totalSlides;
+    showSlide();
+});

@@ -13,3 +13,11 @@
 @mixin text-center {
     text-align: center;
 }
+
+//box-shadow
+@mixin box-shadows {
+    box-shadow: 1em 1em 3em 0.5em rgba(0, 0, 0, 0.5);
+}
+@mixin box-shadows-li {
+    box-shadow: 1em 1em 3em 0.5em rgba(155, 178, 194, 0.3);
+}

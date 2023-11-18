@@ -1,0 +1,23 @@
+//graphics section
+.graphic-container {
+    display: grid;
+    height: 500px;
+    background-color: #465468;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: $border-radius;
+    border: 0.1rem solid #8696ac;
+    @include box-shadows-li;
+
+    .slider {
+        background-color: green;
+        border-radius: 1em;
+    }
+
+    .about-graphics {
+        background-color: rgb(153, 153, 153);
+        border-radius: 1em;
+        padding: 0 1rem;
+    }
+}
