@@ -84,3 +84,23 @@
         border-right-color: #f1d2ff;
     }
 }
+
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.scroll-to-top-btn:focus {
+    outline: none;
+}
+.scroll-to-top-btn svg {
+    fill: #f1d2ff;
+}

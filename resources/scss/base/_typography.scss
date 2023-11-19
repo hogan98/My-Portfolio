@@ -6,6 +6,7 @@ $font-family-serif: "Roboto Slab", Garamond, ‘Hoefler Text’, serif;
 
 .headings {
     font-size: 3rem;
+    font-weight: bold;
     color: #f1d2ff;
     text-align: center;
     padding: 3rem 0;
@@ -50,7 +51,8 @@ $font-family-serif: "Roboto Slab", Garamond, ‘Hoefler Text’, serif;
     text-align: left;
 }
 .contact-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #f1d2ff;
     text-align: left;
+    font-weight: bold;
 }

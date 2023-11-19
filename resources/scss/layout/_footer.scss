@@ -7,4 +7,18 @@
     padding: 2rem;
     background-color: $bg-secondary;
     text-align: center;
+
+    .footer-text {
+        font-size: 1.5rem;
+        color: aliceblue;
+    }
+    .socials {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+        svg {
+            margin: 0 0.5rem;
+        }
+    }
 }

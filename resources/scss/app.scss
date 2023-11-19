@@ -22,3 +22,27 @@
 @import "layout/footer";
 @import "layout/graphics";
 @import "layout/nav";
+
+.background-shape {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(95, 74, 124, 0.26);
+    clip-path: polygon(0 0, 0 0, 50% 40%, 100% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+@media (max-width: 768px) {
+    .background-shape {
+        width: 100%;
+        height: 150px;
+        background-color: rgba(95, 74, 124, 0.26);
+        clip-path: polygon(
+            0 0,
+            0 0,
+            50% 40%,
+            100% 0,
+            100% 0,
+            100% 100%,
+            0 100%
+        );
+    }
+}
