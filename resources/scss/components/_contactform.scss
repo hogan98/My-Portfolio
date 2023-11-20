@@ -4,12 +4,12 @@
     .contact-form {
         padding: 2rem;
         display: grid;
-        grid-template-columns: 0.5fr 1fr;
+        grid-template-columns: 1fr 1fr;
 
         input[type="text"],
         input[type="email"],
         textarea {
-            width: 80%;
+            width: 100%;
             margin: 0.6rem 0;
             padding: 10px;
             border-radius: 0.5rem;
@@ -17,6 +17,36 @@
             background-color: transparent;
             color: aliceblue;
             font-size: 1.5rem;
+        }
+    }
+}
+
+.form-info {
+    margin-left: 5rem;
+}
+
+form {
+    margin-right: 5rem;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+
+        .form-info {
+            display: grid;
+            grid-column: span 2;
+            text-align: center;
+            margin: 1rem 0;
+            justify-content: left;
+        }
+
+        form {
+            display: grid;
+            grid-column: span 2;
+            margin: 0;
         }
     }
 }

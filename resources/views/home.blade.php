@@ -37,7 +37,7 @@ Currently, I am employed at an Irish-based web agency, but I am open to explorin
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">An Dulra</h5>
-                        <a href="" class="card-link">
+                        <a target="_BLANK" href="https://www.andulra.ie/" class="card-link">
                            View Site
                          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path class="card-icon-path" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -52,8 +52,8 @@ Currently, I am employed at an Irish-based web agency, but I am open to explorin
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Wimbledon Wine School</h5>
-                        <a href="" class="card-link">
-                            Read More
+                        <a target="_BLANK" href="https://www.wimbledonwineschool.co.uk/" class="card-link">
+                           View Site
                          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path class="card-icon-path" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
@@ -67,8 +67,8 @@ Currently, I am employed at an Irish-based web agency, but I am open to explorin
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Nz Protein</h5>
-                        <a href="" class="card-link">
-                            Read More
+                        <a target="_BLANK" href="https://www.nzprotein.co.nz/" class="card-link">
+                            View Site
                          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path class="card-icon-path" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
@@ -82,8 +82,8 @@ Currently, I am employed at an Irish-based web agency, but I am open to explorin
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Castletroy Hockey Club</h5>
-                        <a href="" class="card-link">
-                            Read More
+                        <a target="_BLANK" href="https://www.castletroyhockeyclub.ie/" class="card-link">
+                            View Site
                          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path class="card-icon-path" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
@@ -97,8 +97,8 @@ Currently, I am employed at an Irish-based web agency, but I am open to explorin
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Anywair</h5>
-                        <a href="" class="card-link">
-                            Read More
+                        <a target="_BLANK" href="http://www.anywair.ie/" class="card-link">
+                            View Site
                          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path class="card-icon-path" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
@@ -112,8 +112,8 @@ Currently, I am employed at an Irish-based web agency, but I am open to explorin
                     </a>
                     <div class="card-content">
                         <h5 class="card-title">Gaming Nirvana</h5>
-                        <a href="" class="card-link">
-                            Read More
+                        <a target="_BLANK" href="https://gamingnirvana.com/" class="card-link">
+                            View Site
                          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path class="card-icon-path" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
@@ -163,7 +163,7 @@ Currently, I am employed at an Irish-based web agency, but I am open to explorin
             </button>
 
             <div id="contact" class="contact-box">
-                <p class="headings mt-14">Contact</p>
+                <p class="headings mt-4">Contact</p>
                 <div class="contact-form">
                     <div class="form-info">
                         <p class="contact-header">Contact me at:</p>
@@ -173,7 +173,7 @@ Currently, I am employed at an Irish-based web agency, but I am open to explorin
                     <form action="#">
                         <input type="text" placeholder="Your Name" class="">
                         <input type="email" placeholder="Email Address" class="">
-                        <textarea name="message" placeholder="Message(Optional)" cols="30" rows="10"></textarea>
+                        <textarea name="message" placeholder="Message(Optional)" cols="20" rows="6"></textarea>
                         <button type="submit" class="contact-btn ">Send Message</button>
                     </form>
                 </div>
