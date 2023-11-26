@@ -21,7 +21,7 @@
             }
             .content {
                 position: absolute;
-                bottom: 30%;
+                bottom: 25%;
                 left: 50px;
                 color: #ffffff;
                 z-index: 1;
@@ -50,7 +50,7 @@
         z-index: 2;
         cursor: pointer;
         padding: 8px 16px;
-        background-color: #dddddd00;
+        background-color: #bbb;
         border-radius: 0.5rem;
         font-size: 2em;
         margin: 0 1rem;
@@ -59,7 +59,7 @@
         transition: background-color 0.5s ease;
 
         &:hover {
-            background-color: #bbb;
+            background-color: #f1f1f1;
         }
     }
 

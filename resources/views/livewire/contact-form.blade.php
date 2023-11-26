@@ -12,13 +12,19 @@
             @if ($status)
                 <div>{{ $status }}</div>
             @endif
-            <input type="text" wire:model="name" placeholder="Your Name" class="">
+            <input type="text" wire:model="name" placeholder="Your Name">
             @error('name')
-				<div class="alert alert-danger">{{ $message }}</div>
+				<div class="alert">{{ $message }}</div>
 			@enderror
 
-            <input type="email" wire:model="email" placeholder="Email Address" class="">
+            <input type="email" wire:model="email" placeholder="Email Address">
+            @error('email')
+				<div class="alert">{{ $message }}</div>
+			@enderror
             <textarea name="message" wire:model="message" placeholder="Message" cols="20" rows="6"></textarea>
+             @error('message')
+				<div class="alert">{{ $message }}</div>
+			@enderror
             <button type="submit" class="contact-btn ">Send Message</button>
         </form>
     </div>

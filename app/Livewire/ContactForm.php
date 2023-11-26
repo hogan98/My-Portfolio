@@ -2,6 +2,8 @@
 
 namespace App\Livewire;
 
+use App\Mail\ContactFormSubmitted;
+use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
 class ContactForm extends Component
@@ -13,12 +15,19 @@ class ContactForm extends Component
 
     public function save()
     {
-        // dd($this->name);
         $validated = $this->validate([ 
             'name' => 'required|string|min:3',
             'email' => 'required|email|string|min:3',
             'message' => 'required|string',
         ]);
+
+        try {
+            Mail::to(config('mail.to'))
+                ->send(new ContactFormSubmitted($validated));
+        } catch(\Exception $e) {
+            //do nothing
+        }
+
 
         //Send Email Here: dd($validated);
         $this->name = null;
