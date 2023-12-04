@@ -1,51 +1,63 @@
 :root {
     --clr-light: #1f2937;
     --clr-dark: #ebebeb;
-    --clr-primary: #ffffff;
-    --clr-secondary: #00100d;
-    --clr-accent: #ff7750;
+    --clr-primary: #dbdbdb;
+    --clr-secondary: #242424;
+    --clr-accent: #f1d2ff;
+    --clr-heading: #f1d2ff;
 
     --foreground: var(--clr-dark);
     --background: var(--clr-light);
+
+    --nav: var(--clr-secondary);
+    --li-pink: var(--clr-accent);
+    --headings: var(--clr-heading);
 }
 
 .darkmode {
     --clr-light: #1f2937;
-    --clr-dark: #ebebeb;
-    --clr-primary: #202302;
-    --clr-secondary: #00100d;
-    --clr-accent: #ff7750;
+    --clr-dark: #cccccc;
+    --clr-primary: #242424;
+    --clr-secondary: #242424;
+    --clr-heading: #1f5ea5;
 
     --foreground: var(--clr-light);
     --background: var(--clr-dark);
-}
 
-body {
-    background: var(--background);
-    color: var(--foreground);
-}
+    --nav: var(--clr-primary);
+    --li-pink: var(--clr-accent);
+    --headings: var(--clr-heading);
 
-.dark-mode-toggle {
-    position: absolute;
-    z-index: 100;
-    top: 10em;
-    right: 3em;
-    color: var(--foreground);
-    border: 2px solid currentColor;
-    padding: 4px;
-    background: transparent;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-}
+    .img-hero {
+        opacity: 0.8;
+    }
 
-.click-here {
-    // SVG icon from Font Awesome
-    width: 120px;
-    right: 4em;
-    position: absolute;
-    top: 14em;
+    .background-shape {
+        width: 100%;
+        height: 300px;
+        background-color: rgba(20, 7, 92, 0.185);
+        clip-path: polygon(
+            0 0,
+            0 0,
+            50% 40%,
+            100% 0,
+            100% 0,
+            100% 100%,
+            0 100%
+        );
+    }
+
+    .contact-box {
+        background-color: #1f2937;
+    }
+    .li-container {
+        box-shadow: 0 30px 50px #252525;
+        // box-shadow: 1em 1em 3em 0.6em rgba(0, 0, 0, 0.705);
+    }
+
+    .scroll-to-top-btn svg {
+        fill: #1f5ea5;
+    }
 }
 
 //Typography

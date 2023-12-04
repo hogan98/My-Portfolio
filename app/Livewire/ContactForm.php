@@ -35,6 +35,11 @@ class ContactForm extends Component
         $this->message = null;
         $this->status = 'The contact form was successfully sent.';
     }
+    
+    public function clearMessage() 
+    {
+        $this->status = null;
+    }
 
     public function render()
     {

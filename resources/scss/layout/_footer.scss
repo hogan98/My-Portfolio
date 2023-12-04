@@ -5,12 +5,12 @@
     left: 0;
     width: 100%;
     padding: 2rem;
-    background-color: $bg-secondary;
+    background: var(--nav);
     text-align: center;
 
     .footer-text {
         font-size: 1.5rem;
-        color: aliceblue;
+        color: var(--li-pink);
     }
     .socials {
         display: flex;

@@ -30,10 +30,13 @@
                     <p class="mobile-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
                 </div>
                 <div class="info-container">
-                    <h2 class="section-headings-bg-2">About Me</h2>
-                    <p class="text-centered">From 2017 to 2020, I attended Technological University of the Shannon, where I acquired valuable skills in software development. Since then, I have dedicated myself to honing my expertise in various areas, including graphic design, HTML, CSS, JavaScript, React, and Laravel. My goal is to leverage my skills to work on full-stack projects, encompassing graphic design, front-end development, and back-end development.
-                    Currently, I am employed at an Irish-based web agency, but I am open to exploring new opportunities, including freelance projects.</p>
-                    Tech Stack Here
+                    <h2 class="section-headings-bg-2 highlight-text ">About Me</h2>
+                    <p class="about-text">
+                        My name is <span class="highlight-text">Ian Reeves</span>, I have been a professional web developer since 2020. 
+                        My expertise is on the front end, specifically with <span class="highlight-text">HTML, CSS</span> and <span class="highlight-text">Javascript</span>. My framework of choice is <span class="highlight-text">Laravel</span>, 
+                        but I am also comfortable working with <span class="highlight-text">Wordpress, Vue.js</span> and <span class="highlight-text">ReactJS</span>.
+                        I am based in Limerick, Ireland an am currently available to help work on web projects on a freelance basis.
+                    </p>
                 </div>
             </div>
 
@@ -140,7 +143,6 @@
                             
                             <div class="content">
                                 <h2>Butterfly</h2>
-                                <p>Lorem ipsum dolor sit amet.</p>
                             </div>
                         </div>
 
@@ -151,7 +153,6 @@
                             
                             <div class="content">
                                 <h2>Castle</h2>
-                                <p>Lorem ipsum dolor sit amet.</p>
                             </div>
                         </div>
 
@@ -162,10 +163,18 @@
                             
                             <div class="content">
                                 <h2>Boat Portal</h2>
-                                <p>Lorem ipsum dolor sit amet.</p>
                             </div>
                         </div>
                 </div>
+{{-- 
+                <div class="preview-container">
+                    <div class="carousel-preview">
+                        <img src="/img/butterflyglow.png" alt="Butterfly Image">
+                    </div>
+                    <div class="carousel-preview">
+                        <img src="/img/castleglowcompleted.png" alt="Castle Image">
+                    </div>
+                </div> --}}
                 <div class="button">
                     <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
                     <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
@@ -179,7 +188,7 @@
                 </svg>
             </button>
 
-            @livewire('contact-form');
+            @livewire('contact-form')
 
         </div>
 

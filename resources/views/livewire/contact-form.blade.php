@@ -1,6 +1,6 @@
 
-<div id="contact" class="contact-box">
-    <p class="headings mt-4">Contact</p>
+<div id="contact" class="contact-box li-container">
+    <p class="headings-solo mt-4">Contact</p>
     <div class="contact-form">
         <div class="form-info">
             <p class="contact-header">Contact me at:</p>
@@ -8,9 +8,9 @@
             <p class="contact-text">Alternatively, complete the form below :</p>
         </div>
         
-        <form wire:submit="save">
+        <form id="contactForm" wire:submit="save">
             @if ($status)
-                <div>{{ $status }}</div>
+                <div wire:poll.10s="clearMessage" class="success-banner" id="successBanner">{{ $status }}</div> 
             @endif
             <input type="text" wire:model="name" placeholder="Your Name">
             @error('name')

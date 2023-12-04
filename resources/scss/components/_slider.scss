@@ -21,26 +21,48 @@
             }
             .content {
                 position: absolute;
-                bottom: 25%;
+                bottom: 30%;
                 left: 50px;
                 color: #ffffff;
                 z-index: 1;
                 padding: 10px;
                 border-radius: 5px;
-                h2,
-                p {
+
+                h2 {
                     color: #ffffff;
 
                     &:first-child {
                         font-size: 4rem; //(h2)
                     }
-
-                    &:last-child {
-                        font-size: 2rem; //(p)
-                    }
                 }
             }
         }
+    }
+
+    .preview-container {
+        margin-right: 20rem;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: 2rem;
+        width: 22rem;
+        height: 32rem;
+        overflow: hidden;
+        z-index: 3;
+        transition: width 0.5s ease, height 0.5s ease;
+        border-radius: 2em;
+    }
+
+    .carousel-preview {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s ease;
+    }
+
+    .carousel-preview img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     button {
