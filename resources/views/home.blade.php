@@ -27,7 +27,10 @@
                 <div id="about" class="info-img-container">
                     <img src="/img/castleglowcompleted.png" alt="" class="text-image">
                     <p class="mobile-heading">About Me</p>
-                    <p class="mobile-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia eum nesciunt soluta ut magni quo odit dicta rem consequatur.</p>
+                    <p class="mobile-text">My name is <span class="highlight-text">Ian Reeves</span>, I have been a professional web developer since 2020. 
+                        My expertise is on the front end, specifically with <span class="highlight-text">HTML, CSS</span> and <span class="highlight-text">Javascript</span>. My framework of choice is <span class="highlight-text">Laravel</span>, 
+                        but I am also comfortable working with <span class="highlight-text">Wordpress, Vue.js</span> and <span class="highlight-text">ReactJS</span>.
+                        I am based in Limerick, Ireland an am currently available to help work on web projects on a freelance basis.</p>
                 </div>
                 <div class="info-container">
                     <h2 class="section-headings-bg-2 highlight-text ">About Me</h2>
