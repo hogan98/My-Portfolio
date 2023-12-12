@@ -8,5 +8,15 @@
     "file": "assets/app-cfe007bd.js",
     "isEntry": true,
     "src": "resources/js/app.js"
+  },
+  "resources/js/lightmode.js": {
+    "file": "assets/lightmode-0ebc4e95.js",
+    "isEntry": true,
+    "src": "resources/js/lightmode.js"
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app-0f570e0b.css",
+    "isEntry": true,
+    "src": "resources/scss/app.scss"
   }
 }

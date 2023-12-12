@@ -1,0 +1,1 @@
+let e=localStorage.getItem("darkMode");const o=document.querySelector("#dark-mode-toggle"),d=()=>{document.body.classList.add("darkmode"),localStorage.setItem("darkMode","enabled")},a=()=>{document.body.classList.remove("darkmode"),localStorage.setItem("darkMode",null)};e==="enabled"&&d();o.addEventListener("click",()=>{e=localStorage.getItem("darkMode"),e!=="enabled"?d():a()});
